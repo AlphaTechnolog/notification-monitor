@@ -1,0 +1,3 @@
+#!/bin/bash
+
+node /opt/notifications-monitor/src/client/index.js ${@}

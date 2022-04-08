@@ -1,0 +1,12 @@
+{
+  "name": "notifications-monitor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "daemon": "node ./src/daemon/index.js"
+  },
+  "dependencies": {
+    "dbus-next": "^0.10.2"
+  }
+}
