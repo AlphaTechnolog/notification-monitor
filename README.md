@@ -2,6 +2,8 @@
 
 Monitorize your notifications and get a temporary list of the notifications.
 
+![demonstration](./misc/demonstration.png)
+
 ## Installation
 
 You can install this using this commands:
