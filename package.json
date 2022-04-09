@@ -8,6 +8,7 @@
     "client": "node ./src/client/index.js"
   },
   "dependencies": {
-    "dbus-next": "^0.10.2"
+    "dbus-next": "^0.10.2",
+    "debug" : "*"
   }
 }
