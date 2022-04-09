@@ -25,7 +25,7 @@ if [ "$(id -u)" -eq "$ROOTUID" ] ; then
     cp -r ./* /opt/notifications-monitor
 
     echo "Installing dependancies ..."
-    cd /opt/notification-monitor
+    cd /opt/notifications-monitor
     if command -v yarn; then
         yarn install
     elif command -v npm; then
