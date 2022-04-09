@@ -33,7 +33,7 @@ if [ "$(id -u)" -eq "$ROOTUID" ] ; then
     else
         echo "The source code was copied to /opt, but we can't use your node package manager."
         echo "Please install the package manually."
-        echo "The lauchers will be created anyway, but might not be functionnal until you install the dependancies"
+        echo "The lauchers will be created anyway, but might not be functionnal until you install the dependencies"
     fi
 
 

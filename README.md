@@ -4,7 +4,7 @@ Monitor your notifications and get a temporary list of the notifications.
 
 ![demonstration](./misc/demonstration.png)
 
-## Dependancies
+## Dependencies
 - Node.js (to run the program; by default, the package will be installed using
 	npm or yarn)
 - dbus-next : https://github.com/dbusjs/node-dbus-next
