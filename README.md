@@ -9,7 +9,7 @@ Monitor your notifications and get a temporary list of the notifications.
 You can install this using these commands:
 
 ```sh
-git clone https://github.com/AlphaTechnolog/notifications-monitor.git notifications-monitor
+git clone https://github.com/AlphaTechnolog/notification-monitor.git notifications-monitor
 cd notifications-monitor
 ./bin/install.sh
 ```
