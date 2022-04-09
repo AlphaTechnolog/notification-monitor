@@ -2,11 +2,15 @@ const dbus = require('dbus-next')
 const bus = dbus.sessionBus();
 const NotificationManager = require('./notification-manager')
 const storageManager = require('./storage')
+const locker = require('./locker')
+
+// lock files
+locker._startHook()
 
 // ---------CONFIGURATION------------
 
 const VERBOSE = false // use false before run install.sh please
-const CLEANUP_TIME = 180000 // -> 3 minutes
+const CLEANUP_TIME = 300000 // -> 5 minutes
 
 // ----------------------------------
 
