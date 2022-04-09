@@ -4,6 +4,13 @@ Monitor your notifications and get a temporary list of the notifications.
 
 ![demonstration](./misc/demonstration.png)
 
+## Dependancies
+- Node.js (to run the program; by default, the package will be installed using
+	npm or yarn)
+- dbus-next : https://github.com/dbusjs/node-dbus-next
+	The dbus library for node. If you're using yarn or npm, it will be added during
+	the installation of this package.
+
 ## Installation
 
 You can install this using these commands:
